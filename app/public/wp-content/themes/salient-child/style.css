@@ -8,7 +8,12 @@ Template: salient
 Version: 1.0
 */
 
+#top #logo img {
+    margin: -12px 0px 0px -8px;
+}
 
-
-
-
+@media only screen and (max-width: 1000px) {
+    #top #logo img {
+        margin: 0px;
+    }
+}
