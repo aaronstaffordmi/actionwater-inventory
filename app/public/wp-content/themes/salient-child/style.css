@@ -12,6 +12,10 @@ Version: 1.0
     margin: -12px 0px 0px -8px;
 }
 
+.green {
+    color: green;
+}
+
 @media only screen and (max-width: 1000px) {
     #top #logo img {
         margin: 0px;
