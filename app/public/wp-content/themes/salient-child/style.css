@@ -8,12 +8,10 @@ Template: salient
 Version: 1.0
 */
 
+/* AWS logo adjustment */
+
 #top #logo img {
     margin: -12px 0px 0px -8px;
-}
-
-.green {
-    color: green;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -21,3 +19,16 @@ Version: 1.0
         margin: 0px;
     }
 }
+
+#header-outer.transparent #top nav>ul>li[class*=button_bordered]>a:before,
+#top nav>ul>li[class*=button_bordered]>a:before {
+    border: 1px solid white;
+    padding: -10px;
+}
+
+#menu-item-50 .menu-title-text {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* inventory css */

@@ -37,7 +37,11 @@ $nectar_fp_options = nectar_get_full_page_options();
 			?>
 		</div>
 	</div>
-	<div class="green"><p>Hello World</p></div>
 	<?php nectar_hook_before_container_wrap_close(); ?>
+	<!-- Begin inventory template html -->
+	<div class="stafford-container">
+		<H2>Hello World</H2>
+	</div>
+
 </div>
 <?php get_footer(); ?>
