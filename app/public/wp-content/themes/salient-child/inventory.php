@@ -39,7 +39,7 @@ $nectar_fp_options = nectar_get_full_page_options();
 	</div>
 	<?php nectar_hook_before_container_wrap_close(); ?>
 	<!-- Begin inventory template html -->
-	<div class="stafford-container">
+	<div class="container">
 		<H2>Hello World</H2>
 	</div>
 

@@ -8,27 +8,67 @@ Template: salient
 Version: 1.0
 */
 
-/* AWS logo adjustment */
+/* AWS logo/nav adjustment */
 
 #top #logo img {
     margin: -12px 0px 0px -8px;
 }
 
-@media only screen and (max-width: 1000px) {
-    #top #logo img {
-        margin: 0px;
+/* Changing up that hamburgler*/
+
+.lines:before {
+    width: 22px !important;
+}
+
+@media only screen and (max-width: 999px) {
+
+
+
+    /* padding for mobile nav */
+    body #header-outer {
+        padding: 24px 0px;
     }
+
+    /* Changing up that hamburgler  mobile*/
+
+    body #header-outer .slide-out-widget-area-toggle.mobile-icon .lines:before {
+        width: 2rem !important;
+    }
+
+    .slide-out-widget-area-toggle.mobile-icon {
+        margin-top: 8px !important;
+
+    }
+
+    /* Increase mobile hero text size */
+    .wpb_wrapper h2.vc_custom_heading {
+        font-size: 58px !important;
+        line-height: 52px !important;
+    }
+
 }
 
-#header-outer.transparent #top nav>ul>li[class*=button_bordered]>a:before,
-#top nav>ul>li[class*=button_bordered]>a:before {
-    border: 1px solid white;
-    padding: -10px;
+
+/* Github button - nav */
+
+#header-outer.transparent #top nav>ul>li[class*=button_bordered]>a:before {
+    border: none;
 }
 
-#menu-item-50 .menu-title-text {
+#header-outer.transparent #top nav>ul>li[class*=button_bordered]>a {
     font-weight: 400;
     font-size: 12px;
+    border-radius: 4px;
+    background-color: none;
+    border: 1px solid white;
+    padding: 4px 12px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: -2px 4px 20px #00000030;
 }
 
-/* inventory css */
+#header-outer.transparent #top nav>ul>li[class*=button_bordered]>a:hover {
+    background-color: #0a1e2f95;
+    background-color: none;
+    border: 1px solid transparent;
+    box-shadow: -2px 8px 20px #00000090;
+}
