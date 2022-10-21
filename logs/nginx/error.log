@@ -1,0 +1,4 @@
+2022/10/05 13:02:35 [alert] 11160#28172: worker process 21836 exited with code C0000142
+2022/10/05 13:02:35 [alert] 11160#28172: could not respawn worker
+2022/10/07 09:51:06 [alert] 9704#40436: worker process 2024 exited with code C0000142
+2022/10/07 09:51:06 [alert] 9704#40436: could not respawn worker

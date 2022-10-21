@@ -11,7 +11,7 @@ Version: 1.0
 /* AWS logo/nav adjustment */
 
 #top #logo img {
-    margin: -12px 0px 0px -8px;
+    margin: -8px 0px 0px -8px;
 }
 
 /* Changing up that hamburgler*/
@@ -21,8 +21,6 @@ Version: 1.0
 }
 
 @media only screen and (max-width: 999px) {
-
-
 
     /* padding for mobile nav */
     body #header-outer {
@@ -48,7 +46,6 @@ Version: 1.0
 
 }
 
-
 /* Github button - nav */
 
 #header-outer.transparent #top nav>ul>li[class*=button_bordered]>a:before {
@@ -67,8 +64,8 @@ Version: 1.0
 }
 
 #header-outer.transparent #top nav>ul>li[class*=button_bordered]>a:hover {
-    background-color: #0a1e2f95;
-    background-color: none;
-    border: 1px solid transparent;
+    background-color: #ffffff;
+    color: #0a1e2f !important;
+    /* border: 1px solid transparent; */
     box-shadow: -2px 8px 20px #00000090;
 }
